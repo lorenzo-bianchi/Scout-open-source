@@ -13,13 +13,13 @@
 
 	After installing the container according to its instructions, compile according to the following steps:
 
-	create ros workspace
+	# create ros workspace
 	mkdir -p ros/src
 	cd ros
-	copy roller_eye source code
+	# copy roller_eye source code
 	cd src
-	git clone this repo url or mv you roller_eye path .
-	build roller_eye
+	# git clone this repo url or mv you roller_eye path
+	# build roller_eye
 	cd roller_eye
 	./build.sh
 
